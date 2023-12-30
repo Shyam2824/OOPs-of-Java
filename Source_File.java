@@ -23,3 +23,4 @@
         
     }
  }
+ // if no any public class has generated that should be give all A.class, B.class.. etc.., then that all main method work
