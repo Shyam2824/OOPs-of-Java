@@ -25,7 +25,8 @@
     
     abstract class vehicles{
 
-         public abstract int getNoOfWheels ();
+         public abstract int getNoOfWheels (); // if we remove abstract method that compile successfully
+                                            // but child class may or maynot be implementations
          
     }
     class Bus extends vehicles{
