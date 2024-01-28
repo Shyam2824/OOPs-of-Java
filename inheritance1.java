@@ -1,4 +1,6 @@
-/****it is the inheriting the properties of parents class into child class. 
+/****it is the inheriting the properties of parents class into child class.  it acheived  "extends" keyword
+ * it has tit bond
+ * blood relation
  *  Advantage: Code reusability and achieved polymorphism
  * 
  * Types of inheritance: 1. Single inheritance A-->B
@@ -7,7 +9,13 @@
  * 4. Multiple Hierarical inheritance B-->A   & C-->A  multiple class properties in one class
  * 5. Hybrid inheritance : that is connect to all class 
  *  in java only 3 inheritance : Single , Multiple , Hierical inheritance
- * ++++++++ Constrctor  and private access modifier cant inherit to other class
+ * ++++++++ Constructor  and private access modifier cant inherit to other class
+ * 
+ ++++++++++ Type of relationship b/w class 
+  1. inheritance (IS-A) Adv:- Code reusability , cost cutting ,reduce redundancy
+  2. Association (HAS-A)--->1. Aggregation (Weak bond) 2. Composition (strong bond)    
+  Association has not titly bond, non blood relation
+  ref variable new
  * 
  */
 class Animal{
