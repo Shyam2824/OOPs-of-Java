@@ -3,7 +3,7 @@
 // it has only declearation but not implementation child class are response to implementation
 // it has no "{}" bracket that valid";"
 
-    // 1. public abstract void m1(){};// abstract cant have body
+    // 1. public abstract void m1(){};// abstract can't have body
     // 2. public  void m1();// that have method and not body
     // 3. public abstract void m1(); // that should be valid
     // 4. public  void m1(){} ; // that have no abstract method that they are valid
@@ -25,7 +25,7 @@
     
     abstract class vehicles{
 
-         public abstract int getNoOfWheels (); // if we remove abstract method that compile successfully
+     public abstract  int  getNoOfWheels ();// if we remove abstract method that compile successfully
                                             // but child class may or maynot be implementations
          
     }

@@ -19,17 +19,30 @@
  * 
  */
 class Animal{
+    Animal(){// constructor
+        String name = "xyz";
+    }
     void eat(){
         System.out.println("Animal is eating");
+    }
+    void sleep(){
+        System.out.println("Animal is sleeping");
     }
 }
 class Dog extends Animal{
 
 }
+class cat extends Animal{
+
+}
 public class inheritance1 {
     public static void main(String[] args) {
         Dog d= new Dog();
+        cat c= new cat();
+        c.eat();
+        c.sleep();
         d.eat();
+       
 
     }
 }

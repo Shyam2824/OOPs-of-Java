@@ -21,10 +21,14 @@ class test{
     void sh(int a){
         System.out.println(a);
     }
+    // main sh(String b){
+    //     System.out.println("hiii");
+    // }
 }
 public class Polymorphism1 {
     public static void main(String[] args) {
         test t= new test();
-        t.sh();
+        t.sh(10);
+
     }
 }

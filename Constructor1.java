@@ -24,9 +24,13 @@ public class Constructor1 {
         Employee e1= new Employee("Shyam" , 25);
         Employee e2= new Employee("Abc" , 55);
         Employee e3= new Employee("Xyz" , 15);
+        Employee e4= new Employee("Xy5" , 75);
+        Employee e5= new Employee("Xyr" , 95);
         System.out.println(e1.Name + " "+ e1.id);
         System.out.println(e2.Name + " "+ e2.id);
         System.out.println(e3.Name + " "+ e3.id);
+        System.out.println(e4.Name + " "+ e4.id);
+        System.out.println(e5.Name + " "+ e5.id);
         
     }
 }

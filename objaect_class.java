@@ -27,7 +27,7 @@ class rectangle{
     }
 }
 
-public class objaect_class {
+public class objaect_class{
     public static void main(String[] args) {
         
         rectangle r= new rectangle();
